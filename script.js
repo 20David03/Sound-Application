@@ -19,6 +19,10 @@ window.addEventListener("load", ()=>{
 
         sounds[index].onended=function(){
             pad.style.opacity=0.2
+            pad.onmouseout = function() {
+                pad.style.opacity=0.2
+
+        };
         }
 
     })
