@@ -15,6 +15,10 @@ window.addEventListener("load", ()=>{
         }
         else{
             sounds[index].pause()
+            pad.onmouseover=()=>{
+                pad.style.opacity=1
+                pad.style.boxShadow = "0px 0px 20px 6px #e5432b"
+            }
                      pad.onmouseout = function() {
                     pad.style.opacity=0.2
                     pad.style.boxShadow = "0px 0px 0px 0px"
@@ -32,13 +36,7 @@ window.addEventListener("load", ()=>{
 
     })
 
-    pad.onmouseover = function (){
-        pad.style.opacity=1
-        };
-    
-    pad.onmouseout = function() {
-        pad.style.opacity=0.2
-    };
+
 
 
 

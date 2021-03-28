@@ -47,6 +47,7 @@ header h1{
 }
 
 .pads>.pad:hover{
+   opacity: 1;
    cursor: pointer;
    box-shadow: 0px 0px 20px 6px #e5432b;
 }
